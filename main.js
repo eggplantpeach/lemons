@@ -1,5 +1,5 @@
 onload = function pageload() {
-    if (window.location.href = "file:///C:/Users/rando/Desktop/webgames/lemons/index.html") {
+    if (window.location.href = "https://eggplantpeach.github.io/lemons/potato") {
         console.log("fuck yea")
     }
 }
