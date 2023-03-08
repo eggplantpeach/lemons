@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <script>
+        onload = function start() {
+            document.getElementById('video').hidden = true
+        }
 
+        function submityay() {
+            document.getElementById('video').hidden = false
+            document.getElementById('main').hidden = true
+        }
+    </script>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        iframe.main {
+            width: 100vh;
+            height: 100vh;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h3>Are you gay?</h3>
+        <input type="password" value=""><br>
+        <button type="submit" onclick="submityay()">submit</button>
+    </div>
+    <div id="video">
+        <iframe class="main" src="https://randomx3o.github.io/Puzle/rick.mp4"></iframe>
+    </div>
+</body>
+</html>
