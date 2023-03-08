@@ -1,2 +1,2 @@
 # lemons
-dont open lol this is for a joke
+this is for a joke
