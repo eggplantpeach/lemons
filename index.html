@@ -11,8 +11,13 @@
         }
 
         function submityay() {
-            document.getElementById('video').hidden = false
-            document.getElementById('main').hidden = true
+            if (document.getElementById('password').value == "no") {
+                window.location.href = 'https://randomx3o.github.io/Puzle/rick.mp4'
+            }if (document.getElementById('password').value == "yes") {
+                window.location.href = './01. Jimmy Soul - If You Wanna Be Happy_sample.mp3'
+            }else {
+                alert("error invalid")
+            }
         }
     </script>
     <style>
@@ -32,9 +37,6 @@
         <h3>Are you gay?</h3>
         <input type="password" value=""><br>
         <button type="submit" onclick="submityay()">submit</button>
-    </div>
-    <div id="video">
-        <iframe class="main" src="https://randomx3o.github.io/Puzle/rick.mp4"></iframe>
     </div>
 </body>
 </html>
